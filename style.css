@@ -1,0 +1,525 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.border{
+    border: 2px solid red;
+}
+.pipe{
+    color: rgb(238, 237, 237);
+    margin: 0 10% ;
+}
+/* .pipe2{
+    color: rgb(217, 215, 215);
+    margin: 6% 10% ;
+    font-size: x-large;
+    border-bottom: 1px solid rgb(229, 229, 229);
+} */
+.navbar{
+    height: 14vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.busTicketConatiner{
+ filter: saturate(0);
+}
+.busTicketConatiner:hover{
+    filter: saturate(100%);
+}
+.logoAndOptions{
+    height: 95%;
+    width: 40%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.accountAndLogin{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(81, 80, 80);
+}
+
+.busTicketConatiner{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.busTicketConatiner:hover{
+    background-color: rgb(241, 240, 240);
+    border-radius: 1vh;
+}
+
+.activeBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 6px;
+    border-radius: 1vh;
+    padding: 5px;
+    color: white;
+    background-color: #d84e55;
+}
+
+/*.logo-blue:hover{
+    color: rgb(136, 63, 245);
+}*/
+
+.helpContainer , .accountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    width: 25%;
+}
+
+/* main-region  */
+
+.main-region{
+    width: 100%;
+    height: 70vh;
+    background-image: url("../Assets/HeroImageV2_C.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-option-main{
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-text{
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.main-option{
+   height: 35%;
+   width:95%;
+   /* border: 2px solid black; */
+   display: flex;
+   margin-bottom: 5%;
+   position: relative;
+}
+.main-option-boxes{
+   height: 100%;
+   width: 25%;
+  color: rgb(62, 61, 61);
+   background-color: white;
+   display: flex;
+   align-items: center;
+   font-size: 1.2rem;
+   padding-left: 3%;
+}
+
+.first{
+   border-bottom-left-radius: 3vh; 
+   border-top-left-radius: 3vh; 
+}
+.fourth{
+    border-bottom-right-radius: 3vh; 
+    border-top-right-radius: 3vh; 
+    background-color: #d84e55;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 900;
+ }
+
+ .second{
+    border-left: 0.8px solid #d5d2d2;
+    border-right: 0.8px solid #d5d2d2
+ }
+
+ .arrow-sign{
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 50%;
+    padding: 1px;
+    color: grey;
+    position: absolute;
+    top: 35%;
+    left: 23.5%;
+    background-color: white;
+ }
+ .trending-offers{
+
+    height: 40vh;
+    background-color: white;
+    width: 80%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    position: relative;
+   left: 10%;
+   bottom: 6vh;
+   border-radius: 3vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.par{
+    font-size: 1.5rem;
+}
+.textAndShowAllOption{
+   width: 90%;
+   height: 20%;
+
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: rgb(80, 79, 79);
+}
+
+.viewAll{
+    background-color: white;
+    color: blue;
+    border-radius: 3vh;
+    border: 0.5px solid grey;
+    width: 15%;
+    height: 80%;
+}
+
+.trendingPics{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offerImage{
+    width: 33%;
+}
+
+.refreel{
+    height: 14vh;
+    width: 80%;
+    background-image: url('../Assets/webreferal.jpg');
+    background-size: cover;
+    margin-left: 10%;
+}
+
+.bus-rentalSection{
+    height: 88vh;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.textbus{
+    font-size:6vh;
+    font-weight:lighter;
+}
+
+.busRentalText{
+  height: 95%;
+  width: 40%;
+  
+}
+.busRentalPic{
+    width: 550px;
+    height: 75vh;
+    
+    /* border: 2px solid black; */
+   /* background-image: url('../Assets/rydePop.svg'); */
+
+}
+.cartain{
+    display: flex;
+   margin: 5% 0 5% 0 ; 
+   justify-content: space-evenly;
+}
+.cars{
+    margin: 30px;
+}
+.cabbus{
+    background-color: white;
+    color: white;
+    border-radius: 3vh;
+    border: none;
+    width: 50%;
+    height: 8vh;
+    margin: 25px;
+    background-color: rgb(216, 78, 85);
+    font-weight:900;
+    font-size:14px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.bUBqPh {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 21px;
+    padding: 0.875rem 1rem;
+    gap: 0.75rem;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(216, 78, 85);
+    font-weight: 700;
+    cursor: pointer;
+}
+ .footerBorderSelected {
+    border-bottom: 3px solid rgb(216, 78, 85);
+    border-radius: 3px 3px 0px 0px;
+    /* margin: none; */
+}
+.fwRSJM {
+    height: 3.6875rem;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    width: 2rem;
+    display: flex;
+    margin-top: 21px;
+    align-items: center;
+    justify-content: center;
+}
+.pipe2 {
+    height: 25px;
+    width: 1px;
+    background: rgb(229, 229, 229);   
+}
+.GUNJY {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.875rem 1rem;
+    gap: 0.75rem;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.footerBorder {
+    height: 3px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+.advertisment{
+    height: 50vh;
+    width: 80%;
+    margin: 10%;
+}
+.pri{
+    margin:6% 10% 5% 10%  ;
+    height:60%;
+    width: 60%;
+}
+.achivement{
+    height: 36vh;
+    width: 94%;
+    margin: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.achive{
+    width:280px;
+    height: 180px;
+}
+.rtc{
+    margin:5% 10% 5% 10%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: rgb(80, 79, 79);
+}
+.view{
+    background-color: white;
+    border-radius: 2vh;
+    border: 0.5px solid grey;
+    width: 12%;
+    font-size: 1rem;
+    height: 6vh;
+}
+.pb-25-3500{
+    font-size:x-large;
+     color:rgb(62, 61, 61);
+}
+.stateParivahn{
+    margin:5% 10% 5% 10%;  
+    display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.pVP{
+    margin-top: 20px;
+    text-align: center;
+}
+.hakCBk {
+    margin:5% 10% 5% 10%;  
+    display: flex;
+    flex-flow: wrap;
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 0.5rem 1.75rem;
+}
+.hyRAbX {
+    width: 10rem;
+    height: 2rem;
+    color: rgb(85, 85, 85);
+    margin: 1% 1% 0 0;
+    padding: 10px;
+    /* display: flex; */
+
+}
+.hyRAbX:hover{
+    background-color: rgb(189, 186, 186);
+    border-radius: 2vh;
+    padding: 10px;
+}
+.country{
+    margin:5% 10% 5% 10%;  
+    display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.cotry{
+    margin-top: 20px;
+    text-align: center;
+}
+.coutryname{
+    height:120px;
+     width:110px;
+}
+.bookonlin,.des,.accordion{
+    margin:5% 5% 5% 10%;
+}
+.headi,.faq{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.redparaText{
+    height: 95%;
+    width: 40%;
+    
+}
+.redDeals{
+    margin:5% 0 5% 10%;  
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #e0e0e0;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    padding: 1.75rem 1.5rem;
+    align-items: center;
+    font-family: sans-serif;
+}
+.booknow{
+      width: 200px;
+      height: 25vh;
+}
+.par{
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}  
+.redDealsOffer{
+    color: #d84e55;
+    font-size: 1rem;
+}
+/* .pipe {
+    border-right: 1px solid #000;
+    margin: 0 0.5em;
+} */
+.bknow {
+    background-color: #d84e55;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    height: 3rem;
+    width: 8.313rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    border: none;
+}
+.qNa{
+        margin:5% 10% 5% 10%;  
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        color: #1d1d1d;
+        /* overflow: scroll hidden; */
+        /* white-space: nowrap; */
+    
+}
+.faqBotomBorder {
+    border-bottom: 3px solid #d84e55;
+    border-radius: 3px 3px 0 0;
+    margin-top: 20px;
+}
+.faqBotomBorder1{
+     border-bottom: 3px solid rgb(164, 163, 163);
+    border-radius: 3px 3px 0 0; 
+    margin-top: 20px;     
+}
+.accordion-item{
+    margin-bottom: 20px;   
+}
+.footer_links {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+       
+       
+}
+.rb_footer .footer_links .footer_link_section {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.2rem; */
+}
+.footer_link_new{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+}
+.horizontal_seperator {
+    background-color: #e5e5e5;
+    height: 1px;
+    width: 100%;
+}
+ .copyright_social_section {
+    margin:5% 10% 2% 10%; 
+    color: #3f3e3e;
+    display: flex;
+    justify-content: space-between;
+}
+.social_img{
+    margin-left: 20px;
+}
+
+
+
+
+
+
